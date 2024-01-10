@@ -1,29 +1,19 @@
 import React from "react";
-
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Card from "./cards";
+import Footer from "./footer";
+import Jumbotron from "./jumbotron";
+import Navbar from "./navbar";
 
 //create your first component
 const Home = () => {
 	return (
 	<div className="whole-wheat">
-		<div className="container">
-  			<nav className="navbar navbar-expand-lg bg-body-tertiary">
-    		<div className="container-fluid">
-    		<a className="navbar-brand" href="#">Navbar</a>
+		<div class="container">
+  			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    		<div class="container-fluid">
+    		<a class="navbar-brand" href="#">Navbar</a>
     		</div>
   			</nav>
-		</div>
-
-		<div className="jumbotron">
-  			<h1 className="display-4">Hello, world!</h1>
-  				<p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  					<hr className="my-4"/>
- 				<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  				<p className="lead">
-    				<a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  				</p>
 		</div>
 		<div>
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
@@ -41,6 +31,6 @@ const Home = () => {
 		</div>
 	</div>
 	);
-};
 
+};
 export default Home;
