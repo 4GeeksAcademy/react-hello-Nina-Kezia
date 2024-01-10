@@ -13,3 +13,14 @@
     border: red dotted;
 }
 */
+
+.card{
+    display: flex; 
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    margin-right: 10px;
+  }
