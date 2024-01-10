@@ -16,37 +16,23 @@ const Navbar = () => {
 		  aria-label="Toggle navigation"
 		>
 		  <span className="navbar-toggler-icon"></span>
-		</button>
-		<div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-		  <ul className="navbar-nav">
-			<li className="nav-item active">
-			  <a className="nav-link" href="https://www.linkedin.com/in/nina-forlini/">
-				<i className="fa-brands fa-linkedin-in" style={{ color: '#ad88b0' }}></i>
-				<span className="sr-only">(current)</span>
-			  </a>
-			</li>
-			<li className="nav-item">
-			  <a className="nav-link" href="https://github.com/NForlini">
-				<i className="fa-brands fa-github" style={{ color: '#ad88b0' }}></i>
-			  </a>
-			</li>
-			<li className="nav-item">
-			  <a className="nav-link" href="https://4geeksacademy.slack.com/team/U0601SMKGV9">
-				<i className="fa-brands fa-slack" style={{ color: '#ad88b0' }}></i>
-			  </a>
-			</li>
-			<li className="nav-item">
-			  <a
-				className="nav-link"
-				href="mailto:ninaforlini1@gmail.com"
-				tabIndex="-1"
-				aria-disabled="true"
-			  >
-				<i className="fa-brands fa-google" style={{ color: '#ad88b0' }}></i>
-			  </a>
-			</li>
-		  </ul>
-		</div>
+    	</button>
+    	<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+    	</div>
 	  </nav>
 	);
   };
