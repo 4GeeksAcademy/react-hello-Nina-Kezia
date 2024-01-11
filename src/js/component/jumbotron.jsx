@@ -13,7 +13,7 @@ const Jumbotron = (props) => {
          </a>
        </p>
      </div>
-	);
+	); 
 
 };
 export default Jumbotron;
