@@ -17,19 +17,19 @@ const Navbar = () => {
 		>
 		  <span className="navbar-toggler-icon"></span>
     	</button>
-    	<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
+    	<div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+			<ul className="navbar-nav">
+				<li className="nav-item">
+					<a className="nav-link active" aria-current="page" href="#">Home</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+				<li className="nav-item">
+					<a className="nav-link" href="#">About</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Services</a>
+				<li className="nav-item">
+					<a className="nav-link" href="#">Services</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+				<li className="nav-item">
+					<a className="nav-link" href="#">Contact</a>
 				</li>
 			</ul>
     	</div>

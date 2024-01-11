@@ -13,14 +13,3 @@
     border: red dotted;
 }
 */
-
-.flex-wrap d-flex justify-content-center {
-  display: flex;
-  overflow-x: auto;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-  .card {
-    margin-right: 10px;
-  }
