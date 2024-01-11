@@ -13,3 +13,13 @@
     border: red dotted;
 }
 */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color:#a9a9a9;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
